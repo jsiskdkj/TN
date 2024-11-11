@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movies App</title>
+</head>
+<body>
+<table>
+    {% for r in data %}
+        <tr>
+            <td>第{{ forloop.counter }}行</td>
+            {% for r in data %}
+                <td>{{ a }}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
